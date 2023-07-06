@@ -7,7 +7,7 @@ raspberry_pi_name = socket.gethostname()
 print("Nombre de la Raspberry Pi:", raspberry_pi_name)
 
 # Nombre del dispositivo ESP32
-esp32_name = 'esp32_1'  # Reemplaza con el nombre real
+esp32_name = 'esp32_1'  # Reemplaza con el nombre real definido en el codigo de la esp32
 
 # Encuentra la dirección MAC del ESP32
 devices = bluetooth.discover_devices()
