@@ -21,7 +21,7 @@ for addr in devices:
         print('dispositivo encontrado...')
         print(bluetooth.lookup_name(addr))
         break
-    sleep(200)
+    sleep(1)
 
 if esp32_mac_address is None:
     print('No se encontró el dispositivo ESP32.')
